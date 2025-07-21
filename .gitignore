@@ -44,3 +44,8 @@ coverage/
 
 # React Router cache
 .react-router/
+
+# Playwright test results and storage
+playwright-report/
+test-results/
+playwright/.auth/
