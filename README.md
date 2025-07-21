@@ -14,6 +14,20 @@ A modern, production-ready template for building full-stack React applications u
 - 🎉 TailwindCSS for styling
 - 📖 [React Router docs](https://reactrouter.com/)
 
+## Screenshots
+
+<p align="center">
+  <img src=".docs/images/01-home-ipad.png" alt="Home iPad" width="400" />
+  <br/>
+  <em>Home no iPad</em>
+</p>
+
+<p align="center">
+  <img src=".docs/images/05-upload-pdf-ipad.png" alt="Upload PDF iPad" width="400" />
+  <br/>
+  <em>Upload de PDF no iPad</em>
+</p>
+
 ## Getting Started
 
 ### Installation

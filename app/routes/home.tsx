@@ -12,7 +12,9 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  const { auth, kv } = usePuterStore();
+  // Tipar corretamente o retorno do hook
+  const store = usePuterStore();
+  const { auth, kv } = store;
   const navigate = useNavigate();
   const [resumes, setResumes] = useState<Resume[]>([]);
   const [loadingResumes, setLoadingResumes] = useState(false);

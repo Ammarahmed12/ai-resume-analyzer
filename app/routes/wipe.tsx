@@ -2,7 +2,9 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
 import { usePuterStore } from "~/lib/puter";
 const WipeApp = () => {
-    const { auth, isLoading, error, clearError, fs, ai, kv } = usePuterStore();
+    // Tipar corretamente o retorno do hook
+    const store = usePuterStore();
+    const { auth, isLoading, error, clearError, fs, ai, kv } = store;
     const navigate = useNavigate();
     const [files, setFiles] = useState<FSItem[]>([]);
     const loadFiles = async () => {
