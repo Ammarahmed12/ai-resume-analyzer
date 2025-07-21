@@ -1,0 +1,54 @@
+# Project Guidelines: ai-resume-analyzer
+
+## Architecture
+- Use a modular folder structure: `app/` for main code, `components/` for UI, `lib/` for utilities, `routes/` for pages.
+- Keep business logic in `lib/` and UI logic in `components/`.
+- Use `constants/` for static values and enums.
+- Type definitions should go in `types/`.
+- Public assets (images, icons, etc.) belong in `public/`.
+
+## Routing
+- Use React Router v7 for all routing (`react-router` package, not `react-router-dom`).
+- Define routes in `app/routes.ts` using the `RouteConfig` pattern.
+- Each route module should export a default React component.
+- Use typed hooks for route params and navigation.
+- Protect routes with authentication checks in route components (see `home.tsx` and `auth.tsx`).
+
+## Styling
+- Use Tailwind CSS for all styling, with utility classes and custom layers in `app.css`.
+- Use `@apply` for reusable style patterns.
+- Prefer semantic class names for custom components.
+
+## State Management
+- Use Zustand (`lib/puter.ts`) for global state, including auth, file system, and AI features.
+- Keep state logic in the store; UI components should consume state via hooks.
+
+## AI Integration
+- Use the `puter` global for AI, file, and auth operations.
+- All AI feedback and chat features should use the `ai` namespace in the store.
+- Use the `feedback` and `img2txt` methods for resume analysis and image-to-text features.
+
+## General Guidelines
+- Use TypeScript everywhere; avoid `any`.
+- Use named exports for components/utilities, default exports for route modules.
+- Keep code and commit messages clear and descriptive.
+- Follow commit and TypeScript rules in their respective .mdc files.
+
+## Example: Route Protection
+```typescript
+useEffect(() => {
+  if (!auth.isAuthenticated) navigate('/auth?next=/');
+}, [auth.isAuthenticated]);
+```
+
+## Example: Route Definition
+```typescript
+export default [
+  index("routes/home.tsx"),
+  route('/auth', 'routes/auth.tsx'),
+] satisfies RouteConfig;
+```
+description:
+globs:
+alwaysApply: false
+---
